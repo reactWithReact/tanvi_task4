@@ -1,0 +1,88 @@
+.main_card{
+    display: grid !important;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.expanded{
+    padding-bottom: 20px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    background: linear-gradient(to left, #eb5757, #000000);
+    padding-inline: 15px;
+}
+.flex{
+    display: flex !important;
+}
+.close{
+    font-size: 25px;
+    display: flex;
+    font-weight: 700;
+    margin-top: -40px;
+    justify-content: end;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+text{
+    font-size: 20px;
+}
+.boxx{
+    background: linear-gradient(to left, #eb5757, #000000); 
+    box-shadow: 15px 15px 8px #000000;
+    cursor: pointer;
+    padding: 20px;
+}
+.centre{
+    align-items: center;
+}
+.keys{
+    display: flex;
+    justify-content: space-around;  
+    padding: 15px;
+    align-items: center;  
+}
+.CircularProgressbar {
+    width:auto !important;  
+    height: 90px;
+}
+.CircularProgressbar-path {
+    stroke: black !important;
+  }
+  .CircularProgressbar-trail {
+    stroke: white !important;
+  }
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: black !important;
+  }
+  @media screen and (max-width: 600px) {
+    .expanded{
+        width: 300px;
+    }
+  }
+  .tooltip{ 
+    
+    width: 5rem; 
+    background-color: rgba(0, 0, 0, 0.876); 
+    color: #ffffff; 
+    text-align:center; 
+    border-radius: 4px; 
+    padding: 4px 0px; 
+    font-size: 12px; 
+    font-weight: 400; 
+    position: relative; 
+    position: absolute; 
+    z-index: 5; 
+    left:50%; 
+  } 
+  .tooltip>div{ 
+      width:12px; 
+      height:12px; 
+      border-radius: 50%; 
+      position: relative; 
+      top:17px; 
+      left:15px; 
+       
+       
+  }
